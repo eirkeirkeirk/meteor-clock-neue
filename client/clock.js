@@ -3,6 +3,7 @@ Meteor.setInterval(function () {
 }, 16);
 
 Template.body.helpers({
+  name: {first: "Erik", last: "Hansen", age: "37"},
 
   hours: _.range(0, 12),
 
